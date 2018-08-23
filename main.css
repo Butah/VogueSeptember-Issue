@@ -1,0 +1,8 @@
+#cover {
+    background-image: url(coverimg.jpg);
+    background-size: cover;
+height: 100px;
+    text-align: center;
+
+}
+ 

@@ -17,21 +17,32 @@
 </head>
 
 <body>
+    <div id="cover">
+            <h1>Vogue September Issue</h1>
 
-           <h1>Vogue September Issue</h1>
+    </div
+           
 
- <div id="app-4">
-   <ol>
-     <li v-for="entry in list">
+           <div class="pure-g">
+                <div class="pure-u-1-5"><p></p></div>
+                <div class="pure-u-3-5"> 
+                        <div id="app-4">
+                                <ol>
+                                  <li v-for="entry in list">
+                             
+                                    <p>{{ entry.Year }}</p>
+                                    <p>{{ entry.Designer }}</p>
+                                    <p>{{ entry.Photographer }}</p>
+                                    <p>{{ entry.Artist }}</p>
+                             
+                                  </li>
+                                </ol>
+                            </div>
 
-       <p>{{ entry.Year }}</p>
-       <p>{{ entry.Designer }}</p>
-       <p>{{ entry.Photographer }}</p>
-       <p>{{ entry.Artist }}</p>
-
-     </li>
-   </ol>
- </div>
+                </div>
+                <div class="pure-u-1-5"><p></p></div>
+            </div>
+ 
  
 
 </body>
