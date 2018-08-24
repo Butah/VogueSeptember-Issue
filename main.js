@@ -1,5 +1,5 @@
 function init() {
-    Tabletop.init({
+  Tabletop.init({
       key: 'https://docs.google.com/spreadsheets/d/13NVWy6ScSoZWwEqACoWwSYwL5TnHlzsn6l5TXXpl6sQ/pubhtml',
       
       callback: function (tabletopData, tabletop) {
